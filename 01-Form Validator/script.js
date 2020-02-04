@@ -73,33 +73,5 @@ form.addEventListener('submit', function (e) {
     checkLength(username, 3, 15);
     checkLength(password, 6, 25);
     passMatch(password, password2);
-    /*if (username.value == "") {
-        showError(username, 'Username is Required');
-    } else {
-        showSuccess(username);
-    }
-
-    if (email.value == "") {
-        showError(email, 'Email is Required');
-    } else if (!isValidEmail(email.value)){
-        showError(email, 'Email is not Valid');
-    } else {
-        showSuccess(email);
-    }
-
-    if (password.value == "") {
-        showError(password, 'Password is Required');
-    } else {
-        showSuccess(password);
-    }
-
-    if (password2.value == "") {
-        showError(password2, 'Password 2 is Required');
-    } else {
-        showSuccess(password2);
-    }*/
-
-
-    
 });
 
